@@ -25,6 +25,9 @@
 
     <!-- docsify-accordion -->
     <link rel="stylesheet" href="https://unpkg.com/docsify-accordion/src/style.css">
+
+    <!-- @mingchyuanko/docsify-plugin-giscus -->
+    <link rel="stylesheet" href="https://unpkg.com/@mingchyuanko/docsify-plugin-giscus/dist/giscus.css">
 </head>
 
 <body>
@@ -87,6 +90,18 @@
                 right: 5,
                 bottom: 5,
             },
+
+            giscus: {
+                repo: "mingchyuan/blog",
+                repoId: "R_kgDOLKaG7w",
+                category: "Announcements",
+                categoryId: "DIC_kwDOLKaG784CdcGC",
+                reactionsEnabled: "1",
+                inputPosition: "top",
+                theme: "https://unpkg.com/@mingchyuanko/docsify-plugin-giscus/dist/noborder_light_custom.css",
+                lang: "zh-TW",
+                loading: true,
+            },
         };
     </script>
     <!-- Docsify v4 -->
@@ -119,6 +134,9 @@
 
     <!-- docsify-scroll-to-top -->
     <script src="https://unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+
+    <!-- @mingchyuanko/docsify-plugin-giscus -->
+    <script src="https://unpkg.com/@mingchyuanko/docsify-plugin-giscus/dist/giscus.min.js"></script>
 
     <!-- PrismJS -->
     <!-- https://prismjs.com/#supported-languages -->
