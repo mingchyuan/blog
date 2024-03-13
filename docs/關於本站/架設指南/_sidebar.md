@@ -1,0 +1,7 @@
+- [首頁](/)
+- 架設指南
+    - [Markdown Syntax](/關於本站/架設指南/markdown-syntax)
+    - [使用工具簡介](/關於本站/架設指南/README)
+    - [VS Code](/關於本站/架設指南/vscode)
+    - [docsify](/關於本站/架設指南/docsify)
+    - [GitHub Pages](/關於本站/架設指南/github-pages)
