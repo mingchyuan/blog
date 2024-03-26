@@ -23,6 +23,9 @@
     <!-- PrismJS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism.css">
 
+    <!-- docsify-pseudocode -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+
     <!-- docsify-accordion -->
     <link rel="stylesheet" href="https://unpkg.com/docsify-accordion/src/style.css">
 
@@ -141,6 +144,15 @@
                     }
                 }
             },
+
+            pseudocode: {
+                indentSize: '1.2em',
+                commentDelimiter: '//',
+                lineNumber: false,
+                lineNumberPunc: ':',
+                noEnd: false,
+                titlePrefix: 'Algorithm'
+            },
         };
     </script>
     <!-- Docsify v4 -->
@@ -212,6 +224,11 @@
     <!-- LaTeX with MathJax -->
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-latex@0"></script>
+
+    <!-- docsify-pseudocode -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/h-hg/docsify-pseudocode/dist/docsify-pseudocode.min.js"></script>
 </body>
 
 </html>
