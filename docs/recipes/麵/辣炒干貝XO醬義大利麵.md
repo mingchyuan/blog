@@ -1,0 +1,29 @@
+<style>
+article.markdown-section table {
+    width: 100%;
+}
+
+article.markdown-section table hr {
+    margin: revert;
+    border: 1px dashed #ccc;
+}
+</style>
+
+# 辣炒干貝XO醬
+
+|         食材         |       量        |
+| :------------------: | :-------------: |
+|        *爆香*        |                 |
+|        帆立貝        |                 |
+|     蒜片、辣椒碎     |                 |
+|  糯米椒、彩椒、蘑菇  |                 |
+|         米酒         |                 |
+|        *調味*        |                 |
+|          水          |     $200ml$     |
+|         XO醬         |      $1T$       |
+|   雞粉<br />干貝粉   | $\dfrac{1}{2}t$ |
+| 粗黑胡椒<br />辣椒粉 | $\dfrac{1}{4}t$ |
+|    *大火收汁翻炒*    |                 |
+|       義大利麵       |     $100g$      |
+|        煮麵水        |                 |
+|        九層塔        |                 |

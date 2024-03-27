@@ -1,0 +1,7 @@
+- [首頁](/)
+- [吧檯](/recipes/toscanini/吧檯)
+- 麵區
+    - [開班](/recipes/toscanini/麵區開班)
+    - [抓料](/recipes/toscanini/麵區抓料)
+    - [爆香](/recipes/toscanini/麵區爆香)
+    - [調味](/recipes/toscanini/麵區調味)
