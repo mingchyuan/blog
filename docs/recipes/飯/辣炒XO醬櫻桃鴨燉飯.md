@@ -22,7 +22,7 @@ article.markdown-section table hr {
 |          水          |     $100ml$     |
 |         白飯         |     $200g$      |
 |        鮮奶油        |     $100ml$     |
-|         XO醬         |      $25g$      |
+|         XO醬         |     $1.5T$      |
 | 洋香菜碎<br />辣椒粉 | $\dfrac{1}{4}t$ |
 |        九層塔        |                 |
 |       蒜苗斜片       |                 |

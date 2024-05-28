@@ -13,7 +13,7 @@ article.markdown-section h1::before {
     display: block;
     width: 100%;
     height: 0px;
-    padding-bottom: 30%;
+    padding-bottom: 50%;
     background-image: url(https://raw.githubusercontent.com/mingchyuan/blog/main/docs/img/recipes/example.png);
     background-position: center;
     background-repeat: no-repeat;
