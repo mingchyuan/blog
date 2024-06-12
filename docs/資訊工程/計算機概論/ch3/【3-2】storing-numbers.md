@@ -55,12 +55,16 @@ Due to size limitations—the allocated number of bits—the range of integers t
 ### Sign-and-magnitude representation
 
 > [!example]
-> 台聯大-112-計算機概論-20：
+> 【台聯大】【112】【計算機概論】【20】
+>
+> ---
 >
 > $Q:$
 >
 > 假設 $A$ 與 $B$ 都是以符號與值 (Sign-and-magnitude) 8 個 bits 的格式來儲存。那麼 $A - B$ 為何？
 > $$ A = (0\ 0010001)_2 \quad B = (1\ 0010110)_2 $$
+>
+> ---
 >
 > $Sol:$
 >
@@ -284,11 +288,15 @@ It is very important that we store and retrieve an integer in the same format. F
 |        1111        |    15    |         −7         |        −1        |
 
 > [!example]
-> 台聯大-107-計算機概論-6：
+> 【台聯大】【107】【計算機概論】【6】
+>
+> ---
 >
 > $Q:$
 >
 > 哪些計算結果會使得 8-bit 的二補數格式發生溢位？
+>
+> ---
 >
 > $Sol:$
 >
@@ -407,11 +415,15 @@ The Institute of Electrical and Electronics Engineers (IEEE) has defined several
 | Bias (integer)                        |      *127*       |       1023       |
 
 > [!example]
-> 台聯大-108-計算機概論-14：
+> 【台聯大】【108】【計算機概論】【14】
+>
+> ---
 >
 > $Q:$
 >
 > What is the first 5 bits of the mantissa part of 3.125 in the IEEE-754 single precision floating point presentation?
+>
+> ---
 >
 > $Sol:$
 $$
@@ -426,11 +438,15 @@ $$
 ---
 
 > [!example]
-> 台聯大-107-計算機概論-3：
+> 【台聯大】【107】【計算機概論】【3】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following is the number representation of IEEE-754 single precision floating-point format $(C1890000)_{16}$ ?
+>
+> ---
 >
 > $Sol:$
 >

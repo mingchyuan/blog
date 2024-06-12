@@ -5,6 +5,7 @@ article.markdown-section .alert {
 
 article.markdown-section .alert table {
     display: inline-table;
+    width: auto;
 }
 
 article.markdown-section .alert pre {
@@ -351,7 +352,9 @@ where criteria
 ---
 
 > [!example]
-> <p style="text-align: left;">台聯大-108-計算機概論-7：</p>
+> <p style="text-align: left;">【台聯大】【108】【計算機概論】【7】</p>
+>
+> ---
 >
 > <p style="text-align: left;">$Q:$</p>
 >
@@ -378,6 +381,8 @@ where criteria
 > from X, Y 
 > where X.A < Y.D 
 > ```
+>
+> ---
 >
 > <p style="text-align: left;">$Ans:$</p>
 >
@@ -573,11 +578,15 @@ The database designer creates an **entity–relationship (E-R) diagram** to show
 A major role of the **database management system (DBMS)** is to maintain the database's integrity by guarding against problems such as operations that for some reason are only partially completed or different operations that might interact inadvertently to cause inaccurate information in the database.
 
 > [!example]
-> <p style="text-align: left;">台聯大-108-計算機概論-8</p>
+> <p style="text-align: left;">【台聯大】【108】【計算機概論】【8】</p>
+>
+> ---
 >
 > <p style="text-align: left;">$Q:$</p>
 >
 > <p style="text-align: left;">Which of the following features within a DBMS is <em>not</em> provided to maintain database integrity?</p>
+>
+> ---
 >
 > <p style="text-align: left;">
 > <strong>(A)</strong> Concurrent transaction processing.

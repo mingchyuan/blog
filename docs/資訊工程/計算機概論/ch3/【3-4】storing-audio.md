@@ -39,11 +39,15 @@ $$R = 40,000 × 16 = 640,000 \ ^\text{bits}/_\text{s} = 640 \ ^\text{Kb}/_\text{
 ---
 
 > [!example]
-> 台聯大-107-計算機概論-5：
+> 【台聯大】【107】【計算機概論】【5】
+>
+> ---
 >
 > $Q:$
 >
 > We use 8K times per second sampling audio signal. 128 different levels present each sample. How many bytes are needed to store 2 minutes audio voice.
+>
+> ---
 >
 > $Sol:$
 >

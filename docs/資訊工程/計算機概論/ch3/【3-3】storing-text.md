@@ -22,11 +22,15 @@ When the Unicode character set is combined with the **Unicode Transformation For
 - Beyond the characters required for all of the world's commonly-used languages, UTF-8 uses 24- or 32-bit patterns to represent more obscure Unicode symbols, leaving ample room for future expansion.
 
 > [!example]
-> 台聯大-108-計算機概論-15：
+> 【台聯大】【108】【計算機概論】【15】
+>
+> ---
 >
 > $Q:$
 >
 > Estimate about how long it would take to transfer a 400-page novel encoded in Unicode at a transfer rate of 10 Mbps. Suppose each page contains 300 Chinese characters in average.
+>
+> ---
 >
 > $Sol:$
 >

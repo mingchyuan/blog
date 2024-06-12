@@ -12,20 +12,28 @@ The concept of abstraction means:
 ## Stacks
 
 > [!example]
-> 台聯大-109-計算機概論-15：
+> 【台聯大】【109】【計算機概論】【15】
+>
+> ---
 >
 > $Q:$
 >
 > A stack is initially empty, then the following commands are performed:
 >
-> `push 5`  
-> `push 7`  
-> `pop`  
-> `push 10`  
-> `push 5`  
-> `pop`
+> ```algorithm
+> \begin{algorithmic}
+> \State push 7
+> \State push 5
+> \State pop
+> \State push 10
+> \State push 5
+> \State pop
+> \end{algorithmic}
+> ```
 >
 > Which of the following is the correct stack after those commands (assume the top of the stack is on the left)?
+>
+> ---
 >
 > $Ans:$
 >
@@ -128,22 +136,30 @@ push(25), stack:  5 10 25 , value of top: 25
 ## Queues
 
 > [!example]
-> 台聯大-109-計算機概論-16：
+> 【台聯大】【109】【計算機概論】【16】
+>
+> ---
 >
 > $Q:$
 >
 > A queue performs the following commands (in pseudo-code):
 >
-> `enqueue 4, 6, 8, 3, 1`  
-> `dequeue three elements`  
-> `enqueue 3, 1, 5, 6`  
-> `dequeue two elements`
+> ```algorithm
+> \begin{algorithmic}
+> \State enqueue 4, 6, 8, 3, 1
+> \State dequeue three elements
+> \State enqueue 3, 1, 5, 6
+> \State dequeue two elements
+> \end{algorithmic}
+> ```
 >
 > What number is now at the front of the queue?
 >
+> ---
+>
 > $Ans:$
 >
-> 3.
+> 3\.
 
 A **queue** is a linear list in which data can only be inserted at one end, called the *rear*, and deleted from the other end, called the *front*.
 
@@ -160,21 +176,25 @@ The **dequeue** operation deletes the item at the *front* of the queue.
 ### Queue implementation
 
 > [!example]
-> 台聯大-108-計算機概論-27:
+> 【台聯大】【108】【計算機概論】【27】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following data structures are/is usually used to implement a queue?
 >
+> ---
+>
 > $Ans:$
 >
 > **(A)** Array
 >
-> ~(B)~ Tree
+> (B) Tree
 >
 > **(C)** Circular list
 >
-> ~(D)~ Graph
+> (D) Graph
 >
 > **(E)** Linked list
 
@@ -265,11 +285,15 @@ We define a **general linear list** as a collection of elements with the followi
 - The elements <mark>are sorted based on the key value.</mark>
 
 > [!example]
-> 台聯大-109-計算機概論-8：
+> 【台聯大】【109】【計算機概論】【8】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following statement is *False*?
+>
+> ---
 >
 > $Ans:$
 >
@@ -362,11 +386,15 @@ We often refer to the number of nodes in the longest path <mark>from the root to
 > The level of a vertex is the number of edges along the unique path between it and the root.
 
 > [!example]
-> 台聯大-109-計算機概論-18：
+> 【台聯大】【109】【計算機概論】【18】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the formulas gives the maximum number of nodes in the Nth level of a binary tree?
+>
+> ---
 >
 > $Sol:$
 >
@@ -400,9 +428,15 @@ Ans: \qquad
 S_{N+1} = 2^{N+1} - 1
 $$
 >
-> 相關考題：
+> ---
 >
-> 台聯大-106-計算機概論-16，其中 $r = 3$，求 $S_7 \ (\text{height} = 6)$
+> 【台聯大】【106】【計算機概論】【16】
+>
+> ---
+>
+> $Q:$
+>
+> $r = 3$，求 $S_7 \ (\text{height} = 6)$
 
 In a tree data structure, the number of edges <mark>from the leaf node to the particular node</mark> in the longest path is known as the **height** of that node. In the tree, the height of the root node is called height of tree. The tree height of all leaf nodes is 0.
 
@@ -506,23 +540,31 @@ Given that a binary tree consists of a root, a left subtree, and a right subtree
 Note that <mark>only the infix notation needs parentheses.</mark>
 
 > [!example]
-> 相關考題：台聯大-106-計算機概論-17 (選項 C 的中序沒有加上括號，猜想因此有疑義而更正答案)
+> 【台聯大】【106】【計算機概論】【17】
+>
+> ---
+>
+> 選項 C 的中序沒有加上括號，可能因此有疑義而更正答案
 
 ---
 
 關於 postorder 的算數運算式可以參考 C89 [【4-3】External Variables](/程式語言/C/C89/ch4/【4-3】external-variables) 中的 Reverse Polish notation 的 pseudo code，利用 stack 來計算數值。
 
 > [!example]
-> 相關考題：台聯大-112-計算機概論-14
+> 【台聯大】【112】【計算機概論】【14】
 
 ---
 
 > [!example]
-> 台聯大-112-計算機概論-13：
+> 【台聯大】【112】【計算機概論】【13】
+>
+> ---
 >
 > $Q:$
 >
 > 對一個二元樹以 postorder traversal 的結果是 FECHGDBA；以 inorder traversal 的結果是 FECABHDG。則 preorder traversal 的結果為何？
+>
+> ---
 >
 > $Sol:$
 >
@@ -610,7 +652,9 @@ A **binary search tree** (**BST**) is a binary tree with one extra property: the
 ?> An *inorder traversal* of a BST creates a list that is sorted in ascending order.
 
 > [!example]
-> 台聯大-112-計算機概論-10：
+> 【台聯大】【112】【計算機概論】【10】
+>
+> ---
 >
 > 根據不同的順序來建構二元搜尋樹，會得到不同深度 (根到某個節點的距離) 的樹。
 >

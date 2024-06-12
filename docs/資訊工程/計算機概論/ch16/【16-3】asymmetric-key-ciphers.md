@@ -134,11 +134,15 @@ The modulus $n$, a very large number, is created during the key generation proce
 Anyone can encrypt a message and send the ciphertext to Bob, using $C = P^e \bmod n$; only Bob can decrypt the message, using $P = C^d \bmod n$.
 
 > [!example]
-> 台聯大-107-計算機概論-15：
+> 【台聯大】【107】【計算機概論】【15】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following is the ciphertext of p = 11 and q = 5 and choose e = 7. Apply RSA algorithm where plaintext message = 12?
+>
+> ---
 >
 > $Sol:$
 $$

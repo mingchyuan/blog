@@ -81,11 +81,16 @@ A 32-bit IPv4 address is also hierarchical, but divided only into two parts.
 The prefix length is $n$ bits and the suffix length is $(32 - n)$ bits. The prefix and suffix lengths depend on the site of the network (organization).
 
 > [!example]
-> 台聯大-112-計算機概論-7、關務人員考試-112-計算機概論-二、(一)：
+> 【台聯大】【112】【計算機概論】【7】  
+> 【關務人員考試】【112】【計算機概論】【二、(一)】
+>
+> ---
 >
 > $Q:$
 >
 > 一個無階級 (classless) IP 位址為 157.177.187.135/30，哪些IP在相同的子網域 (subnet)？
+>
+> ---
 >
 > $Sol:$
 >
@@ -134,11 +139,15 @@ delivery.
 ### Internet Protocol Version 6 (IPv6)
 
 > [!example]
-> 台聯大-107-計算機概論-23：
+> 【台聯大】【107】【計算機概論】【23】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the statement(s) are correct in Computer Networks?
+>
+> ---
 >
 > $Ans:$
 >
@@ -151,7 +160,7 @@ delivery.
 > **(D)** Two colons (::) are used to denote continuous hexadecimal fields of zeros.  
 > $\quad$ `但整個 ip 中只允許出現一次，否則會分不清零有幾個。`
 >
-> ~(E)~ Transferring a file by FTP uses ~UCP~ connections.  
+> (E) Transferring a file by FTP uses ~UCP~ connections.  
 > $\quad$ `使用 TCP.`
 
 #### IPv6 addressing
@@ -209,7 +218,7 @@ The header is 40 bytes. However, some extension headers are considered part of t
     *IP 分享器*就一個使用 NAT 的實際例子：將 WAN port 的真實 IP (固定或動態皆可) 分享給 LAN port 的電腦使用。
 
 > [!example]
-> 相關考題：台聯大-112-計算機概論-18
+> 【台聯大】【112】【計算機概論】【18】
 
 ## VPN
 

@@ -103,22 +103,26 @@ The process of parsing a program is essentially that of constructing a parse tre
 For this reason, the syntax rules describing a program's grammatical structure must not allow two distinct parse trees for one string, since this would lead to ambiguities within the parser. A grammar that does allow two distinct parse trees for one string is said to be an **ambiguous grammar**.
 
 > [!example]
-> 台聯大-108-計算機概論-22：
+> 【台聯大】【108】【計算機概論】【22】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following statements are/is correct in Programming Languages?
 >
+> ---
+>
 > $Ans:$
 >
 > **(A)** Most machine languages are based on the Imperative (指令式) paradigm.
 >
-> ~(B)~ In the process of translating a program, executing the program is one of the key steps.  
+> (B) In the process of translating a program, executing the program is one of the key steps.  
 > $\quad$ `編譯或直譯一個程式的過程並不需要執行該程式。`
 >
 > **(C)** Polymorphism (多型) is the provision of a single interface to entities of different types.
 >
 > **(D)** The scope of a variable is the portion of the program in which the variable can be accessed.
 >
-> ~(E)~ Parse tree is not constructed by a typical compiler.  
+> (E) Parse tree is not constructed by a typical compiler.  
 > $\quad$ `分析原始碼的語法需要建立 parse tree`

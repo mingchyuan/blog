@@ -1,25 +1,29 @@
 # 【9-3】Programming Paradigms
 
 > [!example]
-> 台聯大-106-計算機概論-20：
+> 【台聯大】【106】【計算機概論】【20】
+>
+> ---
 >
 > $Q:$
 >
 > Choose the following items that are correct regarding Programming Language?
 >
+> ---
+>
 > $Ans:$
 >
 > **(A)** C++, Java, C#, and Python are Object-Oriented Paradigm.
 >
-> ~(B)~ ~The functional paradigm is also called a~ procedural paradigm, some typical programming languages are FORTRAN, BASIC and COBOL.
+> (B) ~The functional paradigm is also called a~ procedural paradigm, some typical programming languages are FORTRAN, BASIC and COBOL.
 >
-> ~(C)~ Windows is designed by Object-Oriented Programming, the main features is that each object ~cannot~ be reused.  
+> (C) Windows is designed by Object-Oriented Programming, the main features is that each object ~cannot~ be reused.  
 > $\quad$ `Windows 使用 C, C++ and assembly language.`
 >
-> ~(D)~ LISP is a functional paradigm, program is treated as a combination of several basic functions.  
+> (D) LISP is a functional paradigm, program is treated as a combination of several basic functions.  
 > $\quad$ `LISP 程式由 function 與 expression 所組合，且不一定是基本函數，也可以是使用者自訂的函數。`
 >
-> ~(E)~ PROLOG (PROgramming LOGic) is belong to ~functional paradigm~, is developed by Alain Colmerauer and Philippe Roussel to deal with the natural language.  
+> (E) PROLOG (PROgramming LOGic) is belong to ~functional paradigm~, is developed by Alain Colmerauer and Philippe Roussel to deal with the natural language.  
 > $\quad$ `Declarative paradigm`
 
 We divide computer languages into four paradigms:
@@ -42,11 +46,15 @@ We divide computer languages into four paradigms:
 - Java
 
 > [!example]
-> 台聯大-106-計算機概論-26：
+> 【台聯大】【106】【計算機概論】【26】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following statements are correct regarding *Template*.
+>
+> ---
 >
 > $Ans:$
 >
@@ -55,7 +63,7 @@ We divide computer languages into four paradigms:
 >
 > **(B)** Templates allows functions and classes to operate with generic types.
 >
-> ~(C)~ Templates does ~not~ allows a function or class to work on many different data types without being rewritten for each one.
+> (C) Templates does ~not~ allows a function or class to work on many different data types without being rewritten for each one.
 >
 > **(D)** The C++ Standard Library provides many useful functions within a framework of connected templates.
 >
@@ -140,7 +148,10 @@ There are two basic procedures for taking lists apart:
 [An Introduction to Scheme and its Implementation](https://www.cs.utexas.edu/ftp/garbage/cs345/schintro-v14/schintro_toc.html)
 
 > [!example]
-> 台聯大-112-計算機概論-4、三等考試-111-計算機概論-二、(一)：
+> 【台聯大】【112】【計算機概論】【4】  
+> 【三等考試】【111】【計算機概論】【二、(一)】
+>
+> ---
 >
 > 因為不熟 Scheme，所以將程式重新排版方便了解：
 >
@@ -166,6 +177,8 @@ There are two basic procedures for taking lists apart:
 > $Q:$
 >
 > `(mystery (list 4 5 6))` 結果為何？
+>
+> ---
 >
 > $Sol:$
 $$

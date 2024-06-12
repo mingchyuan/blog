@@ -99,11 +99,15 @@ In practice, blocks of plaintext are encrypted individually, but they use a stre
 A **substitution cipher** <mark>replaces one symbol with another.</mark>
 
 > [!example]
-> 台聯大-112-計算機概論-16：
+> 【台聯大】【112】【計算機概論】【16】
+>
+> ---
 >
 > $Q:$
 >
 > 某種替換式加密 (Substitution cipher) 方法如下，$E(\text{A}) = \text{C},\ E(\text{B}) = \text{D},\ \dots,\ E(\text{Y}) = \text{A},\ E(\text{Z}) = \text{B}$，若密文 $C = \text{EJCVIRV}$，則明文 $P$ 為何？
+>
+> ---
 >
 > $Sol:$
 >

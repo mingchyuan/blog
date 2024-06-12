@@ -87,7 +87,7 @@ grade: F
 ## Linked Lists
 
 > [!example]
-> 相關考題：台聯大-109-計算機概論-17
+> 【台聯大】【109】【計算機概論】【17】
 
 A **linked list** is a collection of data in which each element contains the location of the next element—that is, each element contains two parts:
 
@@ -123,11 +123,15 @@ The search algorithm for a linked list can only be *sequential* because the node
 However, since nodes in a linked list have no names, we use two pointers, `pre` (for previous) and `cur` (for current). <mark>At the beginning of the search, the `pre` pointer is null and the `cur` pointer points to the first node.</mark> The search algorithm moves the two pointers together towards the end of the list.
 
 > [!example]
-> 台聯大-106-計算機概論-22：
+> 【台聯大】【106】【計算機概論】【22】
+>
+> ---
 >
 > $Q:$
 >
 > Choose the following items that are correct regarding Data Structure?
+>
+> ---
 >
 > $Ans:$
 >

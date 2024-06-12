@@ -169,11 +169,15 @@ A character's code is found by starting at the root and following the branches t
 ---
 
 > [!example]
-> 台聯大-107-計算機概論-26：
+> 【台聯大】【107】【計算機概論】【26】
+>
+> ---
 >
 > $Q:$
 >
 > What is the length of the character after encoding by Huffman coding with the given frequencies?
+>
+> ---
 >
 > $Sol:$
 >
@@ -275,11 +279,15 @@ It is, however, acceptable in an image, video, or audio file. The reason is that
 These methods are cheaper—they take less time and space when it comes to sending millions of bits per second for images and video.
 
 > [!example]
-> 台聯大-109-計算機概論-21：
+> 【台聯大】【109】【計算機概論】【21】
+>
+> ---
 >
 > $Q:$
 >
 > In which data compression method, the received data need not be an exact copy of the original message.
+>
+> ---
 >
 > $Ans:$
 >
@@ -551,11 +559,15 @@ MP3 produces three data rates: 96 kbps, 128 kbps, and 160 kbps. The rate is base
 以 Odd parity 為例，我們設計一系統，每個正確的位元樣式都包含著奇數個 1。因此，若是某個位元樣式有著偶數個 1，就代表著錯誤發生了。若是應用在 ASCII Code 上，我們可以替每個字元加上一個額外的位元，使得該位元樣式含有奇數個 1。
 
 > [!example]
-> 台聯大-108-計算機概論-26：
+> 【台聯大】【108】【計算機概論】【26】
+>
+> ---
 >
 > $Q:$
 >
 > An 8 bit datum appends 1 bit *odd parity checking* bit for error detection. Which of the following data must have at least one bit *error*?
+>
+> ---
 >
 > **(A)** 100100110
 >

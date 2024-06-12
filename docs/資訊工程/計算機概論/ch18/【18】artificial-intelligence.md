@@ -381,11 +381,15 @@ The development of reasoning abilities within a machine has been a topic of rese
     The control system consists of <mark>the logic that solves the problem of moving from the start state to the goal state.</mark> At each step in the process, the control system must decide which of those productions whose preconditions are satisfied should be applied next.
 
 > [!example]
-> 台聯大-108-計算機概論-30：
+> 【台聯大】【108】【計算機概論】【30】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following components are/is in the production system for AI reasoning?
+>
+> ---
 >
 > $Ans:$
 >

@@ -173,7 +173,9 @@ A Turing machine is made of three components:
 - A read/write head
 
 > [!example]
-> 台聯大-107-計算機概論-25：
+> 【台聯大】【107】【計算機概論】【25】
+>
+> ---
 >
 > $Q:$
 >
@@ -182,7 +184,9 @@ A Turing machine is made of three components:
 ---
 
 > [!example]
-> 台聯大-112-計算機概論-17：
+> 【台聯大】【112】【計算機概論】【17】
+>
+> ---
 >
 > $Q:$
 >
@@ -200,6 +204,8 @@ A Turing machine is made of three components:
 >
 > 讀寫頭一開始是在紙帶上資料 1 的位置，則執行完的結果，紙帶資料會變成什麼？
 >
+> ---
+>
 > $Sol:$
 $$
 \begin{align}
@@ -213,11 +219,15 @@ $$
 ---
 
 > [!example]
-> 台聯大-108-計算機概論-9：
+> 【台聯大】【108】【計算機概論】【9】
+>
+> ---
 >
 > $Q:$
 >
 > What action is performed by the Turing machine described below?
+>
+> ---
 >
 > $Ans:$
 >
@@ -276,11 +286,15 @@ $$
 [4 次方的級數和公式]: https://www.quora.com/What-is-the-formula-for-the-sum-of-the-first-N-4th-powers-How-do-you-derive-it
 
 > [!example]
-> 台聯大-106-計算機概論-14：
+> 【台聯大】【106】【計算機概論】【14】
+>
+> ---
 >
 > $Q:$
 >
 > What is the time complexity (Big-O) in following program segment?
+>
+> ---
 >
 > $Sol:$
 >
@@ -378,11 +392,15 @@ $$
 | $f(x) = \Omega\Big(g(x)\Big)$ | 對相當大的 $x$，函數值 $f(x)$ 能找到一個與 $g(x)$ 有關的*下界*。                          |
 
 > [!example]
-> 台聯大-108-計算機概論-10：
+> 【台聯大】【108】【計算機概論】【10】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following is the most precise classification of a problem X?
+>
+> ---
 >
 > $Ans:$
 >
@@ -401,6 +419,8 @@ $$
 > $Q:$
 >
 > If a program has time complexity $T(n) = T(\dfrac{n}{2}) + n^2$. What is the solution of $T(n)$?
+>
+> ---
 >
 > $Sol:$
 $$
@@ -435,11 +455,15 @@ $$
 ---
 
 > [!example]
-> 台聯大-108-計算機概論-17：
+> 【台聯大】【108】【計算機概論】【17】
+>
+> ---
 >
 > $Q:$
 >
 > If a program has time complexity $T(n) = T(\dfrac{n}{2}) + \Theta(n^2)$. What is the solution of $T(n)$?
+>
+> ---
 >
 > $Sol:$
 $$
@@ -547,17 +571,21 @@ NP 問題代表的是：不確定(可能可以，也可能不可以)在多項式
 ---
 
 > [!example]
-> 台聯大-108-計算機概論-25：
+> 【台聯大】【108】【計算機概論】【25】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following questions have/has been answered by researchers?
 >
+> ---
+>
 > $Ans:$
 >
 > **(A)** What is the time complexity of the problem of sorting a list?
 >
-> ~(B)~ Is NP contained in P?  
+> (B) Is NP contained in P?  
 > $\quad$ `目前還不曉得 NP 是否被包含於 P 中。`
 >
 > **(C)** Is P contained in NP?
@@ -648,4 +676,4 @@ $$
 [Functionally Complete Sets of Operators]: https://www.youtube.com/watch?v=1IJBNYqXpxw
 
 > [!example]
-> 相關考題：台聯大-111-計算機概論-1
+> 【台聯大】【111】【計算機概論】【1】

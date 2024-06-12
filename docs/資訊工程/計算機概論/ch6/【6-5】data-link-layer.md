@@ -27,11 +27,15 @@ In a bus network based on the Ethernet standards, the right to transmit messages
 This protocol dictates that each message be broadcast to all the machines on the bus. Each machine monitors all the messages but keeps only those addressed to itself. To transmit a message, a machine waits until the bus is silent, and at this time it begins transmitting while continuing to monitor the bus. If another machine also begins transmitting, both machines detect the clash and pause for a brief, independently random period of time before trying to transmit again.
 
 > [!example]
-> 台聯大-108-計算機概論-3：
+> 【台聯大】【108】【計算機概論】【3】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following is a protocol for controlling the right to transmit a message in a network?
+>
+> ---
 >
 > $Ans:$
 >
@@ -53,7 +57,9 @@ The result is that wireless networks adopt the policy of trying to avoid collisi
 We emphasize that collision avoidance protocols are designed to avoid collisions and may not eliminate them completely. When collisions do occur, messages must be retransmitted.
 
 > [!example]
-> 台聯大-112-計算機概論-12：
+> 【台聯大】【112】【計算機概論】【12】
+>
+> ---
 >
 > IEEE 802.11
 >

@@ -39,11 +39,15 @@ Unfortunately, different CPU designs might perform different amounts of work in 
 If you are comparing a machine based on an Intel processor to one based on ARM, it would be more meaningful to compare performance by means of **benchmarking**, which is <mark>the process of comparing the performance of different machines when executing the same program, known as a benchmark.</mark>
 
 > [!example]
-> 台聯大-111-計算機概論-17：
+> 【台聯大】【111】【計算機概論】【17】
+>
+> ---
 >
 > $Q:$
 >
 > Which are useful for measuring the performance of one machine against another, and evaluating the sensitivity of an algorithm to variations in input on a particular machine?
+>
+> ---
 >
 > $Ans:$
 >
@@ -83,11 +87,15 @@ In the **interrupt-driven I/O** method
 - During this time, the CPU can do other jobs such as running other programs or transferring data from or to other I/O devices.
 
 > [!example]
-> 台聯大-111-計算機概論-6：
+> 【台聯大】【111】【計算機概論】【6】
+>
+> ---
 >
 > $Q:$
 >
 > What should be transmitted to the processor to alert the computer that an input/output operation has been completed?
+>
+> ---
 >
 > $Ans:$
 >

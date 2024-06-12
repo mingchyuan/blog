@@ -1,25 +1,29 @@
 # 【6-1】Overview
 
 > [!example]
-> 台聯大-108-計算機概論-21：
+> 【台聯大】【108】【計算機概論】【21】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following statements are/is correct in Computer Networks?
 >
+> ---
+>
 > $Ans:$
 >
-> ~(A)~ ~Bridge~ connects existing networks to form an internet.  
+> (A) ~Bridge~ connects existing networks to form an internet.  
 > $\quad$ `Bridge 連接兩個區域網路。而 Router 建立 network of networks，也就是 internet。`
 >
 > **(B)** Peer-to-peer is a means of performing interprocess communication over a network.
 >
-> ~(C)~ ~Tier-2~ ISPs are assigned the task of providing individual users access to the Internet.  
+> (C) ~Tier-2~ ISPs are assigned the task of providing individual users access to the Internet.  
 > $\quad$ `Tier-3 ISPs 提供網路服務給住宅與企業。`
 >
 > **(D)** Port number identifies the application to which a message arriving from the Internet should be given.
 >
-> ~(E)~ ~Ethernet~ is a means of implementing the Star network topology.  
+> (E) ~Ethernet~ is a means of implementing the Star network topology.  
 > $\quad$ `Wireless Ethernet (WiFi, IEEE 802.11) 利用 AP 建立星狀網路。`
 
 ## Networks
@@ -56,11 +60,15 @@ The difference between a bus network and a star network is not always obvious by
 - Use **extranet** to refer to an extension of an intranet that uses internet protocols to give authorized outside users limited access to the intranet.
 
 > [!example]
-> 台聯大-111-計算機概論-8：
+> 【台聯大】【111】【計算機概論】【8】
+>
+> ---
 >
 > $Q:$
 >
 > Which type of computer network allows third parties (such as vendors or customers) to access restricted information?
+>
+> ---
 >
 > $Ans:$
 >
@@ -256,11 +264,15 @@ The "point" at which one network is linked to an internet is often called a **ga
 [解決 IP 數量不足的辦法]: /資訊工程/計算機概論/ch6/【6-4】network-layer#解決-ip-數量不足的辦法
 
 > [!example]
-> 台聯大-111-計算機概論-9：
+> 【台聯大】【111】【計算機概論】【9】
+>
+> ---
 >
 > $Q:$
 >
 > What is the device that connects internetworks and provides routing between different wide area networks?
+>
+> ---
 >
 > $Ans:$
 >

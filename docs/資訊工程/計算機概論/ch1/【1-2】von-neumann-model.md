@@ -78,11 +78,15 @@ The architecture of early computers in which only the data was stored in memory:
 <mark>The memory of modern computers hosts both a program and its corresponding data.</mark> <mark>This implies that both the data and programs should have the same format, because they are stored in memory.</mark> In fact, they are stored as **binary** patterns in memory—a sequence of 0s and 1s.
 
 > [!example]
-> 台聯大-111-計算機概論-12：
+> 【台聯大】【111】【計算機概論】【12】
+>
+> ---
 >
 > $Q:$
 >
 > What is the common term used to describe John Von Neumann's radically different computer concept based on a model conceived in 1946?
+>
+> ---
 >
 > $Ans:$
 >

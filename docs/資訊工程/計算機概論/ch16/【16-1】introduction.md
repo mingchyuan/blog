@@ -117,11 +117,15 @@ $$
     Unwanted junk email.
 
 > [!example]
-> 台聯大-111-計算機概論-18：
+> 【台聯大】【111】【計算機概論】【18】
+>
+> ---
 >
 > $Q:$
 >
 > What is the common practice of sending fraudulent messages to trick recipients into releasing sensitive information or installing malicious software on their system?
+>
+> ---
 >
 > $Ans:$
 >
@@ -138,4 +142,4 @@ $$
 **Cryptography** means concealing the contents of a message by enciphering; **steganography** means concealing the message itself by covering it with something else.
 
 > [!example]
-> 相關考題：台聯大-109-計算機概論-25
+> 【台聯大】【109】【計算機概論】【25】

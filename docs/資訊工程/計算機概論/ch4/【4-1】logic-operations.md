@@ -15,12 +15,14 @@ If we interpret 0 as the value *false* and 1 as the value *true*, we can apply t
 
 A **truth table** defines the values of output for each possible input or inputs. Note that the output of each operator is always one bit, but the input can be one or two bits.
 
+NOT operation at the bit level:
+
 |  x  | NOT x |
 | :-: | :---: |
 |  0  |   1   |
 |  1  |   0   |
 
-<p style="text-align: center;">NOT operation at the bit level</p>
+AND, OR, XOR operations at the bit level:
 
 |  x  |  y  | x AND y | x OR y | x XOR y |
 | :-: | :-: | :-----: | :----: | :-----: |
@@ -29,18 +31,18 @@ A **truth table** defines the values of output for each possible input or inputs
 |  1  |  0  |    0    |   1    |    1    |
 |  1  |  1  |    1    |   1    |    0    |
 
-<p style="text-align: center;">AND, OR, XOR operations at the bit level</p>
-
 ## Logic operations at pattern level
 
 The same four operators (NOT, AND, OR, and XOR) can be applied to an n-bit pattern.
+
+NOT operators applied to bit patterns:
 
 | Operation | Bit pattern     | Description |
 | --------: | --------------- | :---------- |
 |       NOT | 1 0 0 1 1 0 0 0 | Input       |
 |           | 0 1 1 0 0 1 1 1 | Output      |
 
-<p style="text-align: center;">NOT operators applied to bit patterns</p>
+AND operators applied to bit patterns:
 
 | Operation | Bit pattern     | Description |
 | --------: | --------------- | :---------- |
@@ -48,7 +50,7 @@ The same four operators (NOT, AND, OR, and XOR) can be applied to an n-bit patte
 |       AND | 0 0 1 0 1 0 1 0 | Input 2     |
 |           | 0 0 0 0 1 0 0 0 | Output      |
 
-<p style="text-align: center;">AND operators applied to bit patterns</p>
+OR operators applied to bit patterns:
 
 | Operation | Bit pattern     | Description |
 | --------: | --------------- | :---------- |
@@ -56,7 +58,7 @@ The same four operators (NOT, AND, OR, and XOR) can be applied to an n-bit patte
 |        OR | 0 0 1 0 1 1 1 0 | Input 2     |
 |           | 1 0 1 1 1 1 1 1 | Output      |
 
-<p style="text-align: center;">OR operators applied to bit patterns</p>
+XOR operators applied to bit patterns:
 
 | Operation | Bit pattern     | Description |
 | --------: | --------------- | :---------- |
@@ -64,14 +66,16 @@ The same four operators (NOT, AND, OR, and XOR) can be applied to an n-bit patte
 |       XOR | 0 0 1 0 1 1 1 0 | Input 2     |
 |           | 1 0 1 1 0 1 1 1 | Output      |
 
-<p style="text-align: center;">XOR operators applied to bit patterns</p>
-
 > [!example]
-> 台聯大-108-計算機概論-13：
+> 【台聯大】【108】【計算機概論】【13】
+>
+> ---
 >
 > $Q:$
 >
 > Given x = 143 and x XOR y = 63. What is y?
+>
+> ---
 >
 > $Sol:$
 >
@@ -119,11 +123,15 @@ One's complement operation.
 | XOR  | ![XOR](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/XOR_ANSI_Labelled.svg/120px-XOR_ANSI_Labelled.svg.png) |
 
 > [!example]
-> 台聯大-112-計算機概論-9：
+> 【台聯大】【112】【計算機概論】【9】
+>
+> ---
 >
 > $Q:$
 >
 > 問邏輯線路圖 ($a \land (\neg b)$) 的功能為何？
+>
+> ---
 >
 > $Sol:$
 >
@@ -159,11 +167,15 @@ One's complement operation.
 |  1  |  1  |  1  |  0  |
 
 > [!example]
-> 台聯大-111-計算機概論-14：
+> 【台聯大】【111】【計算機概論】【14】
+>
+> ---
 >
 > $Q:$
 >
 > Which gate produces the carry portion of two binary digits in a half adder?
+>
+> ---
 >
 > $Ans:$
 >

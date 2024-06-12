@@ -110,7 +110,9 @@ It has been proven there is no need for any other constructs. Using only these c
 |   Heap sort    |      $O(n\log{n})$      |
 
 > [!example]
-> 台聯大-108-計算機概論-28：
+> 【台聯大】【108】【計算機概論】【28】
+>
+> ---
 >
 > $Q:$
 >
@@ -119,11 +121,17 @@ It has been proven there is no need for any other constructs. Using only these c
 ---
 
 > [!example]
-> 台聯大-107-計算機概論-24：
+> 【台聯大】【107】【計算機概論】【24】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the statement(s) are correct in complexity of algorithm $O(n^2)$?
+>
+> ---
+>
+> $Ans:$
 >
 > (A) merge sort  
 > $\qquad O(n\log{n})$
@@ -390,11 +398,15 @@ The sequential search algorithm is very slow. If we have a list of a million ele
 ```
 
 > [!example]
-> 台聯大-106-計算機概論-2：
+> 【台聯大】【106】【計算機概論】【2】
+>
+> ---
 >
 > $Q:$
 >
 > A so-called algorithm is to make a big problem, which breaks into many small problems; if these small problems are resolved, then the original big problem will be solved.
+>
+> ---
 >
 > $Ans:$
 >
@@ -416,11 +428,15 @@ In general, there are two approaches to writing algorithms for solving a problem
 Recursion is a process in which an algorithm calls itself.
 
 > [!example]
-> 台聯大-109-計算機概論-9：
+> 【台聯大】【109】【計算機概論】【9】
+>
+> ---
 >
 > $Q:$
 >
 > Recursion is memory-intensive because:
+>
+> ---
 >
 > $Ans:$
 >

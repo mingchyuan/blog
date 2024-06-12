@@ -304,11 +304,15 @@ $$
 $$
 
 > [!example]
-> 台聯大-107-計算機概論-7：
+> 【台聯大】【107】【計算機概論】【7】
+>
+> ---
 >
 > $Q:$
 >
 > If the computer has 32 data registers ($R_0$ to $R_{31}$), 2000 words in memory, and 16 different instructions. What is the minimum size of an instruction in bits if a typical instruction use the following format: `add R0 R2`
+>
+> ---
 >
 > $Sol:$
 >
@@ -316,7 +320,7 @@ $$
 $$
 \lceil \log_{2}{16} \rceil = 4 \text{ bits}
 $$
-> 同理，計算暫存器需要用多少 bit 來表示 (位址)
+> 同理，計算需要用多少 bit 來替暫存器編號
 $$
 \lceil \log_{2}{32} \rceil = 5 \text{ bits}
 $$

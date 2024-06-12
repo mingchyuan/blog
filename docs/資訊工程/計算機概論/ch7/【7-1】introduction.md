@@ -13,7 +13,9 @@ $$
 $$
 
 > [!example]
-> 台聯大-111-計算機概論-7：
+> 【台聯大】【111】【計算機概論】【7】
+>
+> ---
 >
 > *Virtual machine* is able to provide the set of services and resources created by the system software and made available by the users.
 
@@ -40,11 +42,15 @@ The solution adopted today is a two-stage process.
 2. This program is only responsible for loading the operating system itself, or that part of it required to start up the computer, into *RAM* memory. When loading is done, the program counter in the CPU is set to the first instruction of the operating system in RAM and the operating system is executed.
 
 > [!example]
-> 台聯大-107-計算機概論-8：
+> 【台聯大】【107】【計算機概論】【8】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following is the first stage of the modern operation system be loaded into the memory and run it?
+>
+> ---
 >
 > $Ans:$
 >

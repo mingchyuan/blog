@@ -16,11 +16,15 @@ There are several models for the development process. We discuss the two most co
     In this model, the development process flows in only one direction. This means that <mark>a phase cannot be started until the previous phase is completed.</mark>
 
     > [!example]
-    > 台聯大-108-計算機概論-5：
+    > 【台聯大】【108】【計算機概論】【5】
+    >
+    > ---
     >
     > $Q:$
     >
     > Which of the following software engineering methodologies is the most *rigid*?
+    >
+    > ---
     >
     > $Ans:$
     >
@@ -55,11 +59,15 @@ The development process starts with the **analysis phase**. This phase results i
     </p>
 
     > [!example]
-    > 台聯大-108-計算機概論-6：
+    > 【台聯大】【108】【計算機概論】【6】
+    >
+    > ---
     >
     > $Q:$
     >
     > Which of the following is a notational system for representing object-oriented designs?
+    >
+    > ---
     >
     > $Ans:$
     >
@@ -148,11 +156,15 @@ The goal of the **testing phase** is to find errors, which means that a good tes
     </p>
 
     > [!example]
-    > 台聯大-109-計算機概論-23：
+    > 【台聯大】【109】【計算機概論】【23】
+    >
+    > ---
     >
     > $Q:$
     >
     > Which of the following is a white box (glass box) testing in software engineering?
+    >
+    > ---
     >
     > $Ans:$
     >

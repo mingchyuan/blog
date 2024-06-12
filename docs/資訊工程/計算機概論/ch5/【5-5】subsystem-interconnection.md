@@ -90,11 +90,15 @@ In the **memory-mapped I/O** method, <mark>the CPU treats each register in the I
 - The disadvantage is that part of the memory address space is allocated to registers in I/O controllers.
 
 > [!example]
-> 台聯大-112-計算機概論-2：
+> 【台聯大】【112】【計算機概論】【2】
+>
+> ---
 >
 > $Q:$
 >
 > 假設電腦的硬體設計使用記憶體對映輸入輸出來定址 (memory-mapped I/O addressing)。它的記憶體位址使用 10 個 bits。如果實體記憶體空間至多能使用 1000 個字 (words)，剩下的空間給 I/O 控制器 (controller) 使用，那麼假設每個控制器有 2 個暫存器 (register)，則此電腦總共可以存取幾個控制器？
+>
+> ---
 >
 > $Sol:$
 $$

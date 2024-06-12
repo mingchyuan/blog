@@ -142,11 +142,15 @@ Categories of multiprogramming:
     - Demand segmentation
 
     > [!example]
-    > 台聯大-109-計算機概論-3：
+    > 【台聯大】【109】【計算機概論】【3】
+    >
+    > ---
     >
     > $Q:$
     >
     > Which of the following is *not true* in memory management?
+    >
+    > ---
     >
     > $Ans:$
     >
@@ -200,11 +204,15 @@ The general approach to avoiding this problem is to <mark>break the physical mem
 One solution to the problem of external fragmentation is **compaction**. The goal is to shuffle the memory contents so as to place all free memory together in one large block.
 
 > [!example]
-> 台聯大-107-計算機概論-10：
+> 【台聯大】【107】【計算機概論】【10】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following is correct if the memory allocated to a process is a little larger than the process?
+>
+> ---
 >
 > $Ans:$
 >
@@ -226,16 +234,21 @@ The advantage of paging over partitioning is that two programs, each using three
 Paging improves efficiency to some extent, but the whole program still needs to be in memory before being executed. This means that a program that needs six frames, for example, cannot be loaded into memory if there are currently only four unoccupied frames.
 
 > [!example]
-> 台聯大-112-計算機概論-3、三等考試-111-計算機概論-三、(一)：
+> 【台聯大】【112】【計算機概論】【3】  
+> 【三等考試】【111】【計算機概論】【三、(一)】
+>
+> ---
 >
 > $Q:$
 >
 > 電腦的作業系統使用虛擬記憶體來管理記憶體，假設每個分頁 (page) 大小為 4 KB，總共有邏輯位址 (logical address) 空間共 256 分頁，而此電腦的實體記憶體總共只有 64 框 (frame)。則此電腦的邏輯位址、實體位址 (physical address) 分別是多少 bits？
 >
+> ---
+>
 > $Sol:$
 >
-> - 邏輯位址空間: $4 \text{ KB} \times 256 = 2^2 \times 2^{10} \times 2^8 \text{ Bytes} = 2^{20} \text{ Bytes}$
-> - 實體位址空間: $4 \text{ KB} \times 64 = 2^2 \times 2^{10} \times 2^6 \text{ Bytes} = 2^{18} \text{ Bytes}$
+> - 邏輯位址空間: $$4 \text{ KB} \times 256 = 2^2 \times 2^{10} \times 2^8 \text{ Bytes} = 2^{20} \text{ Bytes}$$
+> - 實體位址空間: $$4 \text{ KB} \times 64 = 2^2 \times 2^{10} \times 2^6 \text{ Bytes} = 2^{18} \text{ Bytes}$$
 >
 > 假設每個位址能儲存 $1$ Byte 的資料 (也就是 [word][] 為 1 Byte)。則邏輯位址需要 $20$ bits 來定址；實體位址需要 $18$ bits。
 
@@ -281,11 +294,15 @@ MMU 使用 page table 來處理 logical address 與 physical address 之間的�
 TLB 只保存了一點點 page table 中的項目，如果在 TLB 中沒找到對映關係，也就是發生了 TLB miss，這時才會去 page table 尋找對映關係，並把這個資訊加入 TLB 中。
 
 > [!example]
-> 台聯大-06-計算機概論-25：
+> 【台聯大】【106】【計算機概論】【25】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following statements are correct regarding Memory management?
+>
+> ---
 >
 > $Ans:$
 >
@@ -294,13 +311,13 @@ TLB 只保存了一點點 page table 中的項目，如果在 TLB 中沒找到�
 >
 > **(B)** Paging avoids the problem of external fragmentation of memory in a multi-programming environment.
 >
-> ~(C)~ Compaction could be used to solve problems caused by ~internal fragmentation~.  
+> (C) Compaction could be used to solve problems caused by ~internal fragmentation~.  
 > $\quad$ `Compaction 是用來解決 external fragmentation，聚集不連續、零散的記憶體。`
 >
-> ~(D)~ ~The physical memory~ implements the translation of a program's address space to physical addresses.  
+> (D) ~The physical memory~ implements the translation of a program's address space to physical addresses.  
 > $\quad$ `memory-management unit (MMU) 會負責把程式用 CPU 產生的 logical address space 對映至 physical address space。`
 >
-> ~(E)~ When TLB (Translation Look-aside Buffer) cannot find the information the CPU is looking for, ~the OS will be awaken to load the correct TLB in the disc~.  
+> (E) When TLB (Translation Look-aside Buffer) cannot find the information the CPU is looking for, ~the OS will be awaken to load the correct TLB in the disc~.  
 > $\quad$ `TLB miss 就只能去記憶體中的 page table 找對映關係，並將找到的對應關係加入 TLB 中。`
 
 #### Demand paging
@@ -312,11 +329,15 @@ In demand paging the <mark>program is divided into pages, but the pages can be l
 In other words, memory can hold pages from multiple programs at the same time. In addition, consecutive pages from the same program do not have to be loaded into the same frame—a page can be loaded into any free frame.
 
 > [!example]
-> 台聯大-107-計算機概論-19：
+> 【台聯大】【107】【計算機概論】【19】
+>
+> ---
 >
 > $Q:$
 >
 > Which is the concept using by virtual memory when a process is copied into main memory from the secondary memory according to the requirement?
+>
+> ---
 >
 > $Ans:$
 >
@@ -427,7 +448,9 @@ A process can move between the running, waiting, and ready states many times bef
 Note that the diagram can be much more complex if the system uses virtual memory and swaps programs in and out of main memory.
 
 > [!example]
-> 台聯大-112-計算機概論-5：
+> 【台聯大】【112】【計算機概論】【5】
+>
+> ---
 >
 > $Q:$
 >
@@ -459,6 +482,10 @@ To move a job or process from one state to another, the process manager uses two
         <li>When the CPU is ready to run the process, the process scheduler moves the process from the <em>ready</em> state to the <em>running</em> state.</li>
     </ul>
 
+    ---
+
+    <p class="warn">參考資料：<a>Operating System Concepts, 10th Edition</a></p>
+
     The tasks associated with coordinating the execution of processes are handled by the **scheduler** and **dispatcher** within the operating system's kernel.
 
     The scheduler maintains a record of the processes present in the computer system, introduces new processes to this pool, and removes completed processes from the pool. Thus, when a user requests the execution of an application, it is the scheduler that adds the execution of that application to the pool of current processes.
@@ -474,11 +501,15 @@ To move a job or process from one state to another, the process manager uses two
     </p>
 
     > [!example]
-    > 台聯大-108-計算機概論-1：
+    > 【台聯大】【108】【計算機概論】【1】
+    >
+    > ---
     >
     > $Q:$
     >
     > Which of the following items of information would *not* be contained in an operating system's *process table*?
+    >
+    > ---
     >
     > $Ans:$
     >
@@ -493,11 +524,9 @@ To move a job or process from one state to another, the process manager uses two
 
 - Other schedulers
 
----
+#### Scheduling Criteria
 
 ?> 參考資料：<a>Operating System Concepts, 10th Edition</a>
-
-#### Scheduling Criteria
 
 Different CPU-scheduling algorithms have different properties, and the choice
 of a particular algorithm may favor one class of processes over another. In
@@ -526,11 +555,15 @@ following:
     From the point of view of a particular process, the important criterion is how long it takes to execute that process. The interval from the time of submission of a process to the time of completion is the turnaround time. <mark>Turnaround time is the sum of the periods spent waiting in the ready queue, executing on the CPU, and doing I/O.</mark>
 
     > [!example]
-    > 台聯大-107-計算機概論-30：
+    > 【台聯大】【107】【計算機概論】【30】
+    >
+    > ---
     >
     > $Q:$
     >
     > Which of following item(s) is *incorrect* about CPU Processing?
+    >
+    > ---
     >
     > $Ans:$
     >
@@ -555,11 +588,9 @@ following:
 
 It is desirable to maximize CPU utilization and throughput and to minimize turnaround time, waiting time, and response time. In most cases, we optimize the average measure. However, under some circumstances, we prefer to optimize the minimum or maximum values rather than the average. For example, to guarantee that all users get good service, we may want to minimize the maximum response time.
 
----
+#### Scheduling Algorithms
 
 ?> 參考資料：<a>Operating System Concepts, 10th Edition</a>
-
-#### Scheduling Algorithms
 
 - **First-Come, First-Served Scheduling** (先來先做)
 
@@ -578,11 +609,15 @@ It is desirable to maximize CPU utilization and throughput and to minimize turna
 - **Multilevel Feedback Queue Scheduling**
 
 > [!example]
-> 台聯大-106-計算機概論-23：
+> 【台聯大】【106】【計算機概論】【23】
+>
+> ---
 >
 > $Q:$
 >
 > Choose the following items that are correct regarding CPU scheduling?
+>
+> ---
 >
 > $Ans:$
 >
@@ -676,7 +711,9 @@ There are four *necessary conditions* for deadlock as shown below:
 - Circular waiting: <mark>All processes and resources involved form a loop.</mark>
 
 > [!example]
-> 相關考題：台聯大-112-計算機概論-19
+> 【台聯大】【112】【計算機概論】【19】
+>
+> ---
 >
 > $Q:$
 >
@@ -695,11 +732,15 @@ All four conditions are required for deadlock to occur. However, these condition
     - If each resource type has several instances, then a cycle does not necessarily imply that a deadlock has occurred.
 
 > [!example]
-> 台聯大-106-計算機概論-24：
+> 【台聯大】【106】【計算機概論】【24】
+>
+> ---
 >
 > $Q:$
 >
 > Choose the following items that are *not* correct regarding deadlock.
+>
+> ---
 >
 > $Ans:$
 >
@@ -715,7 +756,7 @@ All four conditions are required for deadlock to occur. However, these condition
 > **(D)** If a system is not in the safe state, it will be in a deadlock state.  
 > $\quad$ `分為安全、不安全以及死結狀態。不安全狀態才「有可能」發生死結。`
 >
-> ~(E)~ There are 4 necessary conditions for a deadlock: Mutual Exclusion, Hold & Wait, No Preemption, and Circular Waiting. It will be deadlock free if one of the above necessary conditions is not established
+> (E) There are 4 necessary conditions for a deadlock: Mutual Exclusion, Hold & Wait, No Preemption, and Circular Waiting. It will be deadlock free if one of the above necessary conditions is not established
 
 ##### Safe State
 
@@ -733,13 +774,13 @@ All four conditions are required for deadlock to occur. However, these condition
 
 Imagine that
 
-1. Process $A$ needs two files, $File_1$ and $File_2$.
-2. $File_1$ is being used by process $B$.
-3. $File_2$ is being used by process $E$.
-4. Process $B$ terminates first and releases $File_1$.
-5. Process $A$ cannot be started, because $File_2$ is still not available.
-6. At this moment, process $C$, which needs only $File_1$, is allowed to run.
-7. Now process $E$ terminates and releases $File_2$, but process $A$ still cannot run because $File_1$ is unavailable.
+1. Process $A$ needs two files, $\text{File}_1$ and $\text{File}_2$.
+2. $\text{File}_1$ is being used by process $B$.
+3. $\text{File}_2$ is being used by process $E$.
+4. Process $B$ terminates first and releases $\text{File}_1$.
+5. Process $A$ cannot be started, because $\text{File}_2$ is still not available.
+6. At this moment, process $C$, which needs only $\text{File}_1$, is allowed to run.
+7. Now process $E$ terminates and releases $\text{File}_2$, but process $A$ still cannot run because $\text{File}_1$ is unavailable.
 
 ## Device manager
 

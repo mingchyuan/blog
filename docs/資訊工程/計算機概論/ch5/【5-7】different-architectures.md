@@ -15,22 +15,26 @@ Two philosophies of CPU architecture:
 RISC (pronounced risk) stands for **reduced instruction set computer**. The strategy behind RISC architecture is to have a small set of instructions that do a minimum number of simple operations. Complex instructions are simulated using a subset of simple instructions.
 
 > [!example]
-> 台聯大-107-計算機概論-22：
+> 【台聯大】【107】【計算機概論】【22】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the statement(s) are correct in *RISC* architecture?
 >
+> ---
+>
 > $Ans:$
 >
 > **(A)** The advance is power efficient than CISC.
 >
-> ~(B)~ The Personal Computer is designed following this architecture.  
+> (B) The Personal Computer is designed following this architecture.  
 > $\quad$ `個人電腦，如 intel x86 使用 CISC。`
 >
-> ~(C)~ The architecture is aimed at ~increasing the time of execution of instructions~.
+> (C) The architecture is aimed at ~increasing the time of execution of instructions~.
 >
-> ~(D)~ The processor has a ~more complicated~ design than CISC.  
+> (D) The processor has a ~more complicated~ design than CISC.  
 > $\quad$ `更精簡。`
 >
 > **(E)** The architecture was the first to implement pipelining.

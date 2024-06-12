@@ -3,11 +3,15 @@
 The **transport layer** in the TCP/IP suite is located between the application layer and the network layer. It provides services to the application layer and receives services from the network layer. The transport layer acts as a liaison between a client program and a server program, a process-to-process connection.
 
 > [!example]
-> 台聯大-108-計算機概論-4：
+> 【台聯大】【108】【計算機概論】【4】
+>
+> ---
 >
 > $Q:$
 >
 > Which layer of the TCP/IP hierarchy chops messages into units whose size is compatible with the Internet?
+>
+> ---
 >
 > $Ans:$
 >

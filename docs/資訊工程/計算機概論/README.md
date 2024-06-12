@@ -2,8 +2,8 @@
 
 ## 參考書籍
 
-- Behrouz Forouzan. (2017). Foundations of Computer Science, 4th Edition.
-- Glenn Brookshear, Dennis Brylow. (2019). Computer Science: An Overview, 13th Edition.
+- 《Foundations of Computer Science, 4th Edition》by Behrouz Forouzan. (2017).
+- 《Computer Science: An Overview, 13th Edition》by Glenn Brookshear, Dennis Brylow. (2019).
     - [國立臺灣大學開放式課程 電機工程學系 計算機概論](https://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S210)
 
 ## 考古題

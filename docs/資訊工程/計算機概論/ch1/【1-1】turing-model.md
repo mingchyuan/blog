@@ -1,11 +1,15 @@
 # 【1-1】Turing Model
 
 > [!example]
-> 台聯大-109-計算機概論-1：
+> 【台聯大】【109】【計算機概論】【1】
+>
+> ---
 >
 > $Q:$
 >
 > Which award is considered as the Nobel Prize in computer science?
+>
+> ---
 >
 > $Ans:$
 >

@@ -1,7 +1,7 @@
 # 【16-4】Other Aspects of Security
 
 > [!warning]
-> 課本上並沒有本篇的 Figure 的表示方法，只是單純方便私人記憶。
+> 課本上並沒有本篇的 Figure 的表示方法，只是單純用 MathJax 取代畫圖。
 
 We need to take care of other aspects of security, such as integrity, message and entity authentication, non-repudiation, and key management.
 
@@ -122,11 +122,15 @@ $$
     A digital signature does *not* provide confidential communication. If confidentiality is required, the message and the signature must be encrypted using either a symmetric-key or an asymmetric-key cipher.
 
 > [!example]
-> 台聯大-112-計算機概論-15：
+> 【台聯大】【112】【計算機概論】【15】
+>
+> ---
 >
 > $Q:$
 >
 > 數位簽章 (Digital signature) 沒辦法直接提供什麼服務？
+>
+> ---
 >
 > $Ans:$
 >

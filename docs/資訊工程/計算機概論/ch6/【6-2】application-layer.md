@@ -69,11 +69,15 @@ The **HyperText Transfer Protocol** (**HTTP**) is a protocol that is used to def
 An HTTP client sends a request; an HTTP server returns a response. The server uses the port number 80; the client uses a temporary port number.
 
 > [!example]
-> 台聯大-106-計算機概論-9：
+> 【台聯大】【106】【計算機概論】【9】
+>
+> ---
 >
 > $Q:$
 >
 > What kind of communication protocol is used in *Web-Based* Mail?
+>
+> ---
 >
 > $Ans:$
 >
@@ -125,20 +129,24 @@ Email is considered a one-way transaction. It is neither feasible nor logical fo
 This means that the idea of client/server programming should be implemented in another way: using some *intermediate computers* (*servers*). The users run only client programs when they want and the intermediate servers apply the client/server paradigm.
 
 > [!example]
-> 台聯大-107-計算機概論-29：
+> 【台聯大】【107】【計算機概論】【29】
+>
+> ---
 >
 > $Q:$
 >
 > Which of following item(s) is correct about Computer Networks?
 >
+> ---
+>
 > $Ans:$
 >
 > **(A)** SMTP uses the TCP port 25.
 >
-> ~(B)~ An email client has to know the MAC address of its initial SMTP server.  
+> (B) An email client has to know the MAC address of its initial SMTP server.  
 > $\quad$ `MAC address 是在 Transport layer 處理的。`
 >
-> ~(C)~ SMTP defines message encryption.  
+> (C) SMTP defines message encryption.  
 > $\quad$ `負責傳輸而非加密。`
 >
 > **(D)** SMTPS is based on the SMTP connections secured by SSL.
@@ -183,11 +191,15 @@ One of the original remote logging protocols is **TELNET**, which is an abbrevia
 Although TELNET requires a logging name and password, it is vulnerable to hacking because it sends all data including the password in *plaintext* (not encrypted). A hacker can eavesdrop and obtain the logging name and password. Because of this security issue, the use of TELNET has diminished in favor of another protocol, **Secure Shell** (**SSH**), which we describe in the next section.
 
 > [!example]
-> 台聯大-111-計算機概論-11：
+> 【台聯大】【111】【計算機概論】【11】
+>
+> ---
 >
 > $Q:$
 >
 > What type of computer application is designed to facilitate the exchange of messages and files on a network?
+>
+> ---
 >
 > $Ans:$
 >

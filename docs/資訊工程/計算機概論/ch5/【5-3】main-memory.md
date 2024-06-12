@@ -9,11 +9,15 @@ Data is transferred to and from memory in groups of bits called **word**s. A wor
 If the word is 8 bits, it is referred to as a **byte**. The term "byte" is so common in computer science that sometimes a 16-bit word is referred to as a 2-byte word, or a 32-bit word is referred to as a 4-byte word.
 
 > [!example]
-> 台聯大-111-計算機概論-16：
+> 【台聯大】【111】【計算機概論】【16】
+>
+> ---
 >
 > $Q:$
 >
 > Which unit of binary storage has a size that is processor-dependent?
+>
+> ---
 >
 > $Ans:$
 >
@@ -153,11 +157,15 @@ Cache memory at any time contains a copy of a portion of main memory. When the C
 It has been observed that most computers typically spend 80 percent of their time accessing only 20 percent of the data. Cache memory, with its high speed, can hold this 20 percent to make access faster at least 80 percent of the time.
 
 > [!example]
-> 台聯大-107-計算機概論-20：
+> 【台聯大】【107】【計算機概論】【20】
+>
+> ---
 >
 > $Q:$
 >
 > In computer system hardware, which of following item is *the fastest* and most expensive form of storage and comparatively small?
+>
+> ---
 >
 > $Ans:$
 >

@@ -33,11 +33,15 @@ Today computers store not only data, but also programs, in their memory.
 The CPU is responsible for fetching instructions one by one from memory, storing them in the **instruction register**, decoding them, and executing them.
 
 > [!example]
-> 台聯大-111-計算機概論-21：
+> 【台聯大】【111】【計算機概論】【21】
+>
+> ---
 >
 > $Q:$
 >
 > Which of the following is stored in the instruction register?
+>
+> ---
 >
 > $Ans:$
 >
