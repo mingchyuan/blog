@@ -2,7 +2,7 @@
 
 ## 參考書籍
 
-- Brian W. Kernighan, Dennis M. Ritchie. (1988). The C Programming Language, 2nd Edition.
+- 《The C Programming Language, 2nd Edition》by Brian W. Kernighan, Dennis M. Ritchie. (1988).
 
 > Preface: This Second Edition of The C Programming Language describes C as defined by the ANSI standard.  
 
