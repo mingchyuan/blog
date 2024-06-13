@@ -1,6 +1,6 @@
 - [首頁](/)
 - [C 語言學習資源](/程式語言/C/README)
-- 【C89】【K&R, 2nd Edition】
+- 【C89】《K&R, 2nd Edition》
     - 【2】Types, Operators and Expressions
         - [【2-1】Variable Names](/程式語言/C/C89/ch2/【2-1】variable-names)
         - [【2-2】Data Types and Sizes](/程式語言/C/C89/ch2/【2-2】data-types-and-sizes)
