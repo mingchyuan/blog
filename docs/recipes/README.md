@@ -1,14 +1,5 @@
 <style>
-article.markdown-section table {
-    width: 100%;
-}
-
-article.markdown-section table hr {
-    margin: revert;
-    border: 1px dashed #ccc;
-}
-
-article.markdown-section h1::before {
+article.markdown-section h1::after {
     content: "";
     display: block;
     width: 100%;
@@ -26,7 +17,7 @@ article.markdown-section h1::before {
 
 ## 量匙
 
-|    單位     | abbr |  容量   |
-| :---------: | :--: | :-----: |
-|  Tea spoon  | $t$  |  $5ml$  |
-| Table spoon | $T$  | $15ml$  |
+|    單位     | abbr |  容量  |
+| :---------: | :--: | :----: |
+|  Tea spoon  | $t$  | $5ml$  |
+| Table spoon | $T$  | $15ml$ |

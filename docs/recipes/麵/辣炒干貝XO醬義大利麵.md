@@ -1,27 +1,3 @@
-<style>
-article.markdown-section table {
-    width: 100%;
-}
-
-article.markdown-section table hr {
-    margin: revert;
-    border: 1px dashed #ccc;
-}
-
-article.markdown-section h1::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 0px;
-    padding-bottom: 30%;
-    background-image: url(./img/recipes/麵/辣炒干貝XO醬義大利麵.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0.8rem auto;
-}
-</style>
-
 # 辣炒干貝XO醬
 
 |         食材         |       量        |
