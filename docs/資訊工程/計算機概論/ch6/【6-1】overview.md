@@ -156,15 +156,20 @@ $$
 >     A1 -> T1 -> N1 -> D1 -> P1 [style=invis];
 >     A2 -> T2 -> N2 -> D2 -> P2 [style=invis];
 >     t -> {A1, A2} [style=invis];
->     edge [ dir=both, style=dashed, minlen=4];
+>     edge [dir=both, style=dashed, minlen=4];
 >     A1 -> A2 [label="Names"];
 >     T1 -> T2 [label="Port numbers"];
->     N1 -> N2 [label="Logical addresses"];
->     D1 -> D2 [label="Link-layer addresses"];
+>     N1 -> N2 [label="Logical addresses\n(IP addresses)"];
+>     D1 -> D2 [label="Link-layer addresses\n(MAC addresses)"];
 > }
 > ```
 
 <p style="text-align: center">Addressing and packet names in the TCP/IP protocol suite</p>
+
+- At the application layer, we normally use names to define the site that provides services, such as <a>someorg.com</a>, or the email address, such as <a>somebody&commat;coldmail.com</a>.
+- At the transport layer, addresses are called **port numbers**, and these define the application-layer programs at the source and destination. Port numbers are local addresses that <mark>distinguish between several programs running at the same time.</mark>
+- At the network-layer, the addresses are global, with the whole Internet as the scope. A network-layer address uniquely <mark>defines the connection of a device to the Internet.</mark>
+- The link-layer addresses, sometimes called **MAC addresses**, are locally defined addresses, each of <mark>which defines a specific host or router in a network (LAN or WAN).</mark>
 
 ## Combining Networks
 

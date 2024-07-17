@@ -144,7 +144,7 @@ This means that the idea of client/server programming should be implemented in a
 > **(A)** SMTP uses the TCP port 25.
 >
 > (B) An email client has to know the MAC address of its initial SMTP server.  
-> $\quad$ `MAC address 是在 Transport layer 處理的。`
+> $\quad$ `The link-layer addresses, sometimes called MAC addresses, are locally defined addresses, each of which defines a specific host or router in a network (LAN or WAN).`
 >
 > (C) SMTP defines message encryption.  
 > $\quad$ `負責傳輸而非加密。`
